@@ -1,0 +1,5 @@
+str1 = "AaBbCcDdEeFf"
+var = "c"
+while var in str1:
+    str1 = str1[:-1]
+    print(var,end=" ") 
